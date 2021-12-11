@@ -1,0 +1,249 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.all{
+    display: block;
+}
+
+.f-bar{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px #d9d9d9 solid;
+}
+
+.left, .right{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    
+}
+
+.left{
+    justify-content: flex-start;
+}
+
+.right{
+    justify-content: end;
+}
+
+.right img:hover,
+.service-bar div:hover{
+    cursor: pointer;
+    background-color: #dfdfdf;
+}
+
+.f-bar img, .f-bar span{
+    padding: 20px;
+}
+
+.left span{
+    font-weight: 600;
+}
+
+.service-bar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px #d9d9d9 solid;
+}
+
+.service-bar div{
+    width: 7%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+}
+
+.service-bar div p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.sticky-bar{
+    position: sticky;
+    top: 0;
+    font-weight: 800;
+    display: block;
+    width: 94.2%;
+    padding: 20px;
+    border-bottom: 1px #d9d9d9 solid;
+    z-index: 3;
+    background-color: white;
+}
+
+.pa-s-bar{
+    display: flex;
+    width: calc(100% - 40px);
+}
+
+.pa-s-bar *{
+    width: 50%;
+}
+
+.pa-s-bar a img{
+    width: 24px;
+}
+
+.pa-s-bar a{
+    display: flex;
+    justify-content: flex-end;
+}
+.content{
+    height: 30vh;
+    padding: 80px 0;
+}
+
+.content .first{
+    text-transform: uppercase;
+}
+
+.content .second{
+    font-size: 36px;
+}
+
+span{
+    display: block;
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+    padding: 10px 20px;
+    background-color: #006aff;
+    color: white;
+    border-color: transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn button:hover{
+    background-color: #05c;
+    cursor: pointer;
+}
+
+.content *{
+    margin-bottom: 60px;
+}
+
+.text-p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.text-p div{
+    text-align: center;
+}
+
+.text-p .firs{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.text-p .last{
+    font-size: 18px;
+}
+
+.imgs{
+    width: calc(100% - 80px);
+    padding: 0 40px ;
+    margin-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.conf{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.f-img, .marg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.marg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.parents{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+}
+
+.fp{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.fp,
+.sp,
+.lp{
+    width: 50%;
+}
+
+.lp{
+    color: #006aff;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.lp:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: #cccccc4a;
+}
+
+.footer div {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.fc{
+    padding: 20px;
+    border-bottom: 2px #ffffff solid;
+}
+
+.footer div a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer div a:hover{
+    text-decoration: underline;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
